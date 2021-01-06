@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5S7DL8S');
+    </script>
+    <!-- End Google Tag Manager -->
+       <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D8SE2MTCXL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-D8SE2MTCXL');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="rock paper scissor/Css/style.css">
+    <!--<link rel="stylesheet" href="assets/css/style.css" />-->
+    <link rel="icon" href="assets/images/favicon.png">
+    <style>
+        :root{
+            scroll-behavior: smooth;
+        }
+        nav{
+            height: 40px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        
+        ul{
+            /*float: right;*/
+            margin-right: 20px;
+        }
+        ul li{
+            list-style-type: none;
+            display: inline-block;
+            color: #fff;
+        }
+        ul li a{
+            text-decoration: none;
+            color: #fff;
+            font-family: sans-serif;
+        }
+        ul li a:hover{
+            color: goldenrod;
+        }
+        }
+    </style>
+</head>
+<body>
+      <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5S7DL8S"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <nav id="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>|</li>
+        <li><a href="rock-paper-scissor.html">Game</a></li>
+        <li>|</li>
+        <li><a href="https://hammad-yousuf.000webhostapp.com/index.html#section-b">Services</a></li>
+        <li>|</li>
+        <li><a href="https://hammad-yousuf.000webhostapp.com/index.html#section-d">About & Contact</a></li>
+      </ul>
+    </nav>
+    <header>
+        <h1>Rock Paper Scissor</h1>
+    </header>
+    <div class='bg-image'>
+    <div class="score-board" id="board">
+        <div id="user-label" class="badge">user</div>
+        <div id="comp-label" class="badge">comp</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+    <div class="result">
+        <p>Make a move to WIN!</p>
+    </div>
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="rock paper scissor/Images/Rock.png" alt="">
+        </div>
+        <div class="choice" id="p">
+            <img src="rock paper scissor/Images/Paper.png" alt="">
+        </div>
+        <div class="choice" id="s">
+            <img src="rock paper scissor/Images/Scissor.png" alt="">
+        </div>
+    </div>
+    <p id="action-message">
+        Make your move.
+    </p>
+    </div>
+    <script src="rock paper scissor/JS/app.js"></script>
+</body>
+</html>
